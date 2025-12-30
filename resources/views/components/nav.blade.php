@@ -22,7 +22,7 @@
                 <!-- Search form after links -->
                 <li class="nav-item ms-3" method="GET" action="{{ route('search') }}">
                     <form class="d-flex">
-                        <input class="form-control form-control-sm" name="keyword" type="search" placeholder="Search" aria-label="Search" style="width: 200px;">
+                        <input class="form-control form-control-sm" id="keyword" type="search" placeholder="Search" aria-label="Search" style="width: 200px;">
                         <button class="btn btn-outline-light btn-sm ms-2" type="submit">Search</button>
                     </form>
                 </li>
